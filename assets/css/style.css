@@ -1,0 +1,154 @@
+@import url(/assets/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap');
+*{
+    text-decoration: none;
+    color: #fff;
+}
+ body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #08101e;
+}
+.header-section{
+    padding: 20px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .logo img{
+    width: 200px;
+ }
+.nav-links , .sign-in{
+    display: none;
+}
+.logo{
+    width: 100px;
+}
+.introduction{
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.intro-left-side h6{
+    margin-top: 50px;
+    color: #3A68B8;
+    font-weight: 600;
+}
+.intro-left-side h1{
+    padding: 20px 0 10px 0;
+    font-size: 25px;
+    font-weight: 800;
+}
+.intro-left-side p{
+    width: 260px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: #a0a2a7
+}
+.intro-left-side a{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #3A68B8;
+    padding: 10px 20px;
+}
+.w-video{
+    padding: 5px 5px 0 0;
+    width: 13px;
+}
+.intro-right-side{
+    width: 300px;
+}
+.intro-right-side img{
+    width: 100%;
+}
+.cooperation {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+.cooperation img{
+    width: 100px;
+}
+@media(min-width:767px) {
+        .fa-bars {
+            display: none;
+        }
+        .nav-links, .sign-in{
+            display: flex;
+        }
+        .nav-links a{
+            font-weight:600;
+           margin-right: 15px;
+        }
+        .sign-in{
+            background-color: #3A68B8;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            border-radius: 3px;
+        }
+        .logo {
+            margin-right: 60px;
+        }
+        .introduction{
+            padding: 0 50px 0 50px;
+            flex-direction: row;
+        }
+        .intro-left-side h6{
+            padding-top: 50px;
+            font-size: 18px;
+        }
+        .intro-left-side h1{
+            padding: 20px 0 10px 0;
+            font-size: 35px;
+        }
+        .intro-left-side p{
+            width: 400px;
+        }      
+        .intro-right-side img{
+            padding: 70px 0 0 40px;
+        }
+        .cooperation{
+            padding: 50px;
+            flex-direction: row;
+            justify-content:space-between;
+        }
+  }
+@media(min-width:1080px){
+    .nav-links {
+        gap: 40px;
+    }
+    .logo img{
+        padding-left: 50px;
+    }
+    .header-section{
+        padding: 20px 80px 0 100px;
+    }
+    .introduction{
+        padding: 0 100px 0 100px;
+    }
+    .intro-left-side{
+        padding-top: 90px;
+    }
+    .intro-left-side h1{
+        font-size: 40px;
+    }
+    .intro-left-side p{
+        width: 487px;
+    }          
+    .intro-right-side{
+        width: 1000px;
+    }
+    .intro-right-side img{
+        width: 90%;
+    }
+    .cooperation{
+        padding-left: 100px;
+        padding-right: 100px;
+        justify-content:space-between;
+    }
+    .cooperation img{
+        width: 200px;
+    }
+}
+    
