@@ -35,7 +35,7 @@
 }
 .intro-left-side h1{
     padding: 20px 0 10px 0;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 800;
 }
 .intro-left-side p{
@@ -61,15 +61,76 @@
     width: 100%;
 }
 .cooperation {
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
+    gap: 10px;
     flex-direction: column;
     align-items: center;   
     
 }
 .cooperation img{
-    width: 100px;
+    width: 115px;
 }
+.apply_al{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apply-left-side{
+    width: 300px;
+}
+.apply-left-side img{
+    padding: 50px 0;
+    width: 100%;
+}
+.apply-right-side h1{
+    font-size: 23px;
+    font-weight: 800;
+}
+.apply-right-side p{
+    width: 300px;
+    color: #a0a2a7;
+}
+.apply-right-side div {
+    display: inline-flex;
+    background-color: #3A68B8;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}  
+.awards-container{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.awards{
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #0e1523,#18202c);
+    transition: 1.2s ease;
+}
+.awards img{
+    padding-top: 10px;
+    width: 70px;
+}
+.awards h1, p{
+    padding:10px 5px 10px 5px ;
+    color: #b8bbbe;
+}
+.awards h1{
+    font-weight: 700;
+}
+.awards:hover{
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, .2);
+
+}
+
+   
 @media(min-width:767px) {
         .fa-bars {
             display: none;
@@ -99,20 +160,38 @@
             font-size: 18px;
         }
         .intro-left-side h1{
-            padding: 20px 0 10px 0;
-            font-size: 35px;
+            font-size: 30px;
         }
         .intro-left-side p{
-            width: 400px;
+            width: 370px;
         }      
         .intro-right-side img{
-            padding: 70px 0 0 40px;
+            padding: 70px 0 0 0;
+            width: 100%;
         }
         .cooperation{
             padding: 50px;
             flex-direction: row;
             justify-content:space-between;
         }
+        .apply_al{
+            flex-direction: row;
+        }
+        .apply-left-side{
+            width: 650px;
+        }
+        .apply-left-side img{
+            width: 100%;
+        }
+        .apply-right-side h1{
+            font-size: 30px;
+            font-weight: 800;
+        }
+        .apply-right-side p{
+            width: 370px;
+            padding-bottom: 20px;
+        }
+
   }
 @media(min-width:1080px){
     .nav-links {
@@ -137,10 +216,11 @@
         width: 487px;
     }          
     .intro-right-side{
-        width: 1000px;
+        width: 400px;
     }
     .intro-right-side img{
-        width: 90%;
+        padding-left: 120px;
+        width: 100%;
     }
     .cooperation{
         padding-left: 100px;
@@ -150,6 +230,11 @@
     }
     .cooperation img{
         width: 200px;
+    }
+    .apply-right-side h1{
+        width: 500px;
+        font-size: 40px;
+        font-weight: 800;
     }
 }
     
