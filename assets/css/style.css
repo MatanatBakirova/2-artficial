@@ -4,6 +4,31 @@
     text-decoration: none;
     color: #fff;
 }
+.overlay-menu{
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .2);
+    width: 0;
+    overflow-x: hidden;
+}
+.overlay-menu .fa-xmark{
+    position: absolute;
+    font-size: 20px;
+    top: 50px;
+    right: 40px;
+}
+.overlay-nav-links{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+.overlay-nav-links a:hover{
+    transition: 1.2s ease;
+    transform: translateX(20px);
+}
  body{
     font-family: 'Open Sans', sans-serif;
     background-color: #08101e;
@@ -65,8 +90,7 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-    align-items: center;   
-    
+    align-items: center;     
 }
 .cooperation img{
     width: 115px;
@@ -126,8 +150,7 @@
     font-weight: 700;
 }
 .awards:hover{
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, .2);
-
+    box-shadow: 10px 10px 20px  rgba(255, 255, 255, .2);
 }
 .clients{
     display: flex;
@@ -373,12 +396,7 @@ select option{
 }
 .social-icons{
     padding: 12px 4px;
-}
-  
-    }
-/* @media(min-width:2000px){ */
-.logo img{
-    padding-left: 1px;
-}
+}}
+
 
     
