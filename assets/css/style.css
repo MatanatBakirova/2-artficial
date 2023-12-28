@@ -333,6 +333,12 @@ select option{
     .clients-left-side h1{
         font-size: 34px;
     }
+    /* todo Islemir */
+    /* .swiper .swiper-wrapper{
+        width: 200px;
+        display: flex;
+        align-items: center;
+    } */
     .footer{
         padding: 10px 100px;
     }
