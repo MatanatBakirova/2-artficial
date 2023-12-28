@@ -17,3 +17,8 @@ document.querySelector('.fa-xmark').addEventListener('click', function(){
 document.querySelector('.fa-bars').addEventListener('click', function(){
     document.querySelector('.overlay-menu').style.width="100%"
 })
+
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+  });

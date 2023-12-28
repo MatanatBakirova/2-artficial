@@ -86,16 +86,6 @@
 .intro-right-side img{
     width: 100%;
 }
-.cooperation {
-    padding-top: 30px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;     
-}
-.cooperation img{
-    width: 115px;
-}
 .apply_al{
     padding: 10px;
     display: flex;
@@ -172,53 +162,42 @@
     color: #b8bbbe;
 }  
 .footer{
-    padding: 0 10px;
-    display: flex;
-    flex-direction: column;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;
-}
-.column-left{
-    text-align: center;
-    width: 300px;
-}
-.column-left h3{
-    padding-top: 15px;
-    color: #3A68B8;
 }
 .footer a{
     color: #fff;
 }
 .columns{
-    text-align: center;
     display: flex;
     flex-direction: column;
-    width: 272px;
+    gap: 20px;
 }
 .columns a{
     color: #a0a2a7;
-    margin: 5px;
 }
 .columns h2{
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 500 ;
+}  
+.column-left .logo-robot{
+    padding: 10px;
+
 }
-.column-right{
-    width: 300px;
-   text-align: center;
-}
-.column-right p{
-    text-align:center ;
+.column-right h3{
+    padding-top: 10px;
 }
 .social-icons{
-    padding:20px 60px ;
-    display: flex;
-    gap: 20px;
+    padding: 10px;
 }
 .social-icons i{
-    text-align: center;
     color: #a0a2a7;
 }
 select{
+    padding-top: 10px;
     background-color: transparent;
     border: none;
 }
@@ -262,12 +241,7 @@ select option{
         .intro-right-side img{
             padding: 70px 0 0 0;
             width: 100%;
-        }
-        .cooperation{
-            padding: 50px;
-            flex-direction: row;
-            justify-content:space-between;
-        }
+        }         
         .apply_al{
             flex-direction: row;
         }
@@ -299,8 +273,8 @@ select option{
         .clients-left-side{
             width: 358px;
         }
-        .column-left,.column-right, .columns{
-            width: 700px;
+        .footer{
+            padding-left: 20px;
         }
   }
 @media(min-width:1080px){
@@ -332,15 +306,6 @@ select option{
         padding-left: 120px;
         width: 100%;
     }
-    .cooperation{
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 100px;
-        justify-content:space-between;
-    }
-    .cooperation img{
-        width: 200px;
-    }
     .apply_al{
         padding: 0 100px ;
     }
@@ -369,35 +334,18 @@ select option{
         font-size: 34px;
     }
     .footer{
-        padding:0 100px ;
-        gap: 30px;
-        flex-direction: row;
-        background-color: #060e1c;
+        padding: 10px 100px;
     }
     .columns{
-        text-align: left;
+        text-align: center;
         padding-top: 50px;
-        gap: 10px;
-    }
-    .column-left{
-        width: 1000px;
-        text-align: left;
     }
     .column-right{
-
         padding-top: 50px;
-        width: 1000px;
-    text-align: left;
     }
-    .column-right h3{
-        padding: 5px;
-    }
-.column-right p{
-    text-align: left;
+
+
+
+
 }
-.social-icons{
-    padding: 12px 4px;
-}}
-
-
     
