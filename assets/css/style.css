@@ -4,10 +4,14 @@
     text-decoration: none;
     color: #fff;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #08101e;
+}
 .overlay-menu{
     height: 100vh;
     position: fixed;
-    background-color: rgba(255, 255, 255, .2);
+    background-color:#08101ee0;
     width: 100%;
     overflow-x: hidden;
     transition: 1.2s ease;
@@ -29,10 +33,6 @@
 .overlay-nav-links a:hover{
     transition: 1.2s ease;
     transform: translateX(20px);
-}
- body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #08101e;
 }
 .header-section{
     padding: 20px 20px 0 20px;
