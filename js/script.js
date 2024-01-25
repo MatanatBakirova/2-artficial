@@ -19,6 +19,6 @@ document.querySelector('.fa-bars').addEventListener('click', function(){
 })
 
 const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
   });
