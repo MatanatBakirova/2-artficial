@@ -12,9 +12,10 @@ body{
     height: 100vh;
     position: fixed;
     background-color:#08101ee0;
-    width: 100%;
+    width: 0%;
     overflow-x: hidden;
     transition: 1.2s ease;
+    z-index: 100;
 }
 .overlay-menu .fa-xmark{
     position: absolute;
@@ -204,6 +205,10 @@ select{
 select option{
     background-color: #060e1c;
 }
+.swiper {
+    width: 500px;
+    padding:  20px 5px;
+}
 @media(min-width:767px) {
         .fa-bars {
             display: none;
@@ -276,6 +281,9 @@ select option{
         .footer{
             padding-left: 20px;
         }
+        .swiper {
+            width: 700px;
+            padding: 10px;}
   }
 @media(min-width:1080px){
     .nav-links {
@@ -352,9 +360,5 @@ select option{
     .column-right{
         padding-top: 50px;
     }
-
-
-
-
 }
     
