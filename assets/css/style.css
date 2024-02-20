@@ -230,17 +230,23 @@ select option{
             margin-right: 60px;
         }
         .introduction{
-            padding: 0 50px 0 50px;
+            padding: 50px;
             flex-direction: row;
         }
         .intro-left-side h6{
+            padding-bottom: 20px;
             padding-top: 50px;
             font-size: 18px;
         }
         .intro-left-side h1{
+            padding: 20px 0;
             font-size: 30px;
         }
+        .intro-left-side a{
+            padding-top: 8px;
+        }
         .intro-left-side p{
+            padding-bottom: 35px;
             width: 370px;
         }      
         .intro-right-side img{
@@ -283,7 +289,7 @@ select option{
         }
         .swiper {
             width: 700px;
-            padding: 10px;}
+            padding: 30px;}
   }
 @media(min-width:1080px){
     .nav-links {
